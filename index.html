@@ -5,27 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <title>Dev of Figma website</title>
     <link rel="stylesheet" href="css/style.css" />
+
     <link rel="apple-touch-icon" sizes="180x180" href="img/website-icon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="img/website-icon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="img/website-icon/favicon-16x16.png" />
     <link rel="manifest" href="img/website-icon/site.webmanifest" />
   </head>
   <body>
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <a href="#!"><i class="material-icons">home</i>Главная</a>
+        <a href="#!"><i class="material-icons">people</i>О нас</a>
+        <a href="#!"><i class="material-icons">grade</i>Услуги</a>
+        <a href="#!"><i class="material-icons">phone</i>Контакты</a>
+      </li>
+      <li><div class="divider"></div></li>
+      <li>
+        <a href="#!" class="sidenav-close"><i class="material-icons">close</i>Закрыть</a>
+      </li>
+    </ul>
+
     <header class="header">
       <div class="container">
         <div class="header_title">
           <img src="img/logo.svg" alt="logo" class="logo" />
-          <button class="burger">
+          <a class="burger sidenav-trigger" data-target="slide-out">
             <span class="burger_line"> </span>
             <span class="burger_line"> </span>
             <span class="burger_line"> </span>
-          </button>
+          </a>
         </div>
         <h1 class="h1">Реализуем крупнейшие проекты в России</h1>
         <h4 class="h4">стадионы, газопроводы, мосты, дамбы</h4>
@@ -67,8 +79,7 @@
             <div class="line"></div>
             <h3 class="text-h3 project-h3">Газпром Арена</h3>
             <p class="text-p project-p">
-              Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на
-              следующие десятилетия. Мы очень рады данному еву.
+              Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.
             </p>
           </div>
           <div class="about-flex-item">
@@ -76,8 +87,7 @@
             <div class="line"></div>
             <h3 class="text-h3 project-h3">Газпром Арена</h3>
             <p class="text-p project-p">
-              Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на
-              следующие десятилетия. Мы очень рады данному еву.
+              Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.
             </p>
           </div>
           <div class="about-flex-item">
@@ -85,8 +95,7 @@
             <div class="line"></div>
             <h3 class="text-h3 project-h3">Газпром Арена</h3>
             <p class="text-p project-p">
-              Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на
-              следующие десятилетия. Мы очень рады данному еву.
+              Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.
             </p>
           </div>
         </div>
@@ -175,33 +184,29 @@
           <details class="question_item">
             <summary class="text-h3 question_h3">Работаете ли вы по 249 ФЗ?</summary>
             <p class="text-p question_p">
-              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-              стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал
-              большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+              время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
             </p>
           </details>
           <details class="question_item">
             <summary class="text-h3 question_h3">Работаете ли вы по 249 ФЗ?</summary>
             <p class="text-p question_p">
-              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-              стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал
-              большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+              время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
             </p>
           </details>
           <details class="question_item">
             <summary class="text-h3 question_h3">Работаете ли вы по 249 ФЗ?</summary>
             <p class="text-p question_p">
-              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-              стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал
-              большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+              время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
             </p>
           </details>
           <details class="question_item">
             <summary class="text-h3 question_h3">Работаете ли вы по 249 ФЗ?</summary>
             <p class="text-p question_p">
-              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-              стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал
-              большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+              время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
             </p>
           </details>
         </div>
@@ -237,9 +242,8 @@
             <div class="reviews_card">
               <div class="reviews_quotes">“</div>
               <p class="text-p-reviews">
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-                стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник
-                создал большую коллекцию размеров и форм шрифтов.
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+                время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.
               </p>
             </div>
             <h4 class="text-h4">
@@ -251,9 +255,8 @@
             <div class="reviews_card">
               <div class="reviews_quotes">“</div>
               <p class="text-p-reviews">
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-                стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник
-                создал большую коллекцию размеров и форм шрифтов.
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+                время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.
               </p>
             </div>
             <h4 class="text-h4">
@@ -265,9 +268,8 @@
             <div class="reviews_card">
               <div class="reviews_quotes">“</div>
               <p class="text-p-reviews">
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
-                стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник
-                создал большую коллекцию размеров и форм шрифтов.
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+                время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.
               </p>
             </div>
             <h4 class="text-h4">
@@ -333,5 +335,8 @@
         </div>
       </div>
     </footer>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

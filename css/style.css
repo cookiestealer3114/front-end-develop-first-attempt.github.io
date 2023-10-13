@@ -115,12 +115,6 @@ body {
   margin: 0 auto 17px;
   color: var(--white-color);
 }
-@media screen and (max-width: 380px) {
-  .h1 {
-    line-height: 64px;
-    font-size: 46px;
-  }
-}
 .h4 {
   text-align: center;
   font-size: 18px;
@@ -189,23 +183,6 @@ body {
   font-weight: 500;
   line-height: normal;
 }
-@media screen and (max-width: 1280px) {
-  .about_grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 768px) {
-  .info {
-    position: relative;
-
-    padding: 30px 0;
-  }
-  .about_grid {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-  }
-}
 
 .project-h2 {
   text-align: center;
@@ -236,28 +213,6 @@ body {
 }
 .project-p {
   color: var(--gray-color);
-}
-@media screen and (max-width: 1280px) {
-  .about {
-    padding: 450px 15px 110px 15px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .about {
-    padding-top: 150px;
-    padding-bottom: 80px;
-  }
-  .about-flex {
-    flex-direction: column;
-    align-items: center;
-  }
-  .about-flex-item {
-    margin-right: 0;
-    margin-bottom: 30px;
-  }
-  .about-flex-item:last-child {
-    margin-bottom: 0;
-  }
 }
 
 .request {
@@ -305,17 +260,7 @@ body {
 .request_icon {
   margin-right: 15px;
 }
-@media screen and (max-width: 1280px) {
-  .request {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .request_flex {
-    flex-wrap: wrap;
-  }
-}
+
 .services {
   padding-top: 150px;
   padding-bottom: 150px;
@@ -329,8 +274,7 @@ body {
   margin-bottom: 54px;
 }
 .services_h4 {
-  margin-left: 86px;
-  margin-right: 92px;
+  margin: 0 auto;
   max-width: 172px;
   text-transform: uppercase;
 }
@@ -349,24 +293,7 @@ body {
 .services_icon {
   margin: 0 auto 22px;
 }
-@media screen and (max-width: 1280px) {
-  .services {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .services_grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-  }
-  .services_grid-item {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .services_grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
+
 .portfolio {
 }
 .portfolio_grid {
@@ -379,19 +306,7 @@ body {
 }
 .portfolio_img {
 }
-@media screen and (max-width: 1280px) {
-  .portfolio_grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 768px) {
-  .portfolio_grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .portfolio_grid-item {
-    margin: 20px;
-  }
-}
+
 .question {
   padding-top: 150px;
   padding-bottom: 110px;
@@ -433,15 +348,10 @@ body {
 .question_h3.close + .question_p {
   display: none;
 }
-@media screen and (max-width: 1280px) {
-  .question {
-    padding: 150px 15px 110px;
-  }
-}
+
 .partners {
   padding-top: 100px;
   padding-bottom: 80px;
-  max-height: 374px;
   background-color: var(--dark-color);
 }
 .partners_h2 {
@@ -462,19 +372,7 @@ body {
 .partners_item:nth-child(5n) {
   margin-right: 0;
 }
-@media screen and (max-width: 1280px) {
-  .partners_flex {
-    justify-content: center;
-  }
-  .partners_item {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  .partners_item:nth-child(5n) {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-}
+
 .reviews {
   padding: 150px 0 142px;
 }
@@ -503,19 +401,7 @@ body {
 .reviews_author-accent {
   color: var(--accent-color);
 }
-@media screen and (max-width: 1280px) {
-  .reviews {
-    padding: 100px 15px;
-  }
-  .reviews_grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 768px) {
-  .reviews_grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
+
 .contacts {
   padding-top: 100px;
   padding-bottom: 150px;
@@ -548,24 +434,6 @@ body {
 .contacts_h3-accent {
   color: var(--accent-color);
 }
-@media screen and (max-width: 1280px) {
-  .contacts_grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .contacts_item {
-    max-width: 100%;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 768px) {
-  .contacts_grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .contacts_item {
-    max-width: 100%;
-    text-align: center;
-  }
-}
 .footer {
   padding: 30px 0;
   background-color: var(--dark-color);
@@ -575,13 +443,119 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 @media screen and (max-width: 1280px) {
+  .about_grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .about {
+    padding: 450px 15px 110px 15px;
+  }
+  .request {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .services {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .services_grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .services_grid-item {
+    width: 100%;
+  }
+  .portfolio_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .question {
+    padding: 150px 15px 110px;
+  }
+  .partners_flex {
+    justify-content: center;
+  }
+  .partners_item {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .partners_item:nth-child(5n) {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .reviews {
+    padding: 100px 15px;
+  }
+  .reviews_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contacts_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contacts_item {
+    max-width: 100%;
+    text-align: center;
+  }
   .footer {
     padding: 30px 15px;
   }
 }
+
 @media screen and (max-width: 768px) {
+  .info {
+    position: relative;
+
+    padding: 30px 0;
+  }
+  .about_grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .about {
+    padding-top: 150px;
+    padding-bottom: 80px;
+  }
+  .about-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-flex-item {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .about-flex-item:last-child {
+    margin-bottom: 0;
+  }
+  .request_flex {
+    flex-wrap: wrap;
+  }
+  .services_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .portfolio_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .portfolio_grid-item {
+    margin: 20px;
+  }
+  .reviews_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contacts_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contacts_item {
+    max-width: 100%;
+    text-align: center;
+  }
   .footer_flex {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 380px) {
+  .h1 {
+    line-height: 64px;
+    font-size: 46px;
   }
 }

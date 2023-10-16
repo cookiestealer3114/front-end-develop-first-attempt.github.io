@@ -28,7 +28,6 @@
         <a href="#!" class="sidenav-close"><i class="material-icons">close</i>Закрыть</a>
       </li>
     </ul>
-
     <header class="header">
       <div class="container">
         <div class="header_title">
@@ -78,29 +77,32 @@
             <img class="project-img" src="./img/Arena-img.png" alt="Arena image" />
             <div class="line"></div>
             <h3 class="text-h3 project-h3">Газпром Арена</h3>
-            <p class="text-p project-p">
-              Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.
-            </p>
+            <p class="text-p project-p">Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</p>
           </div>
           <div class="about-flex-item">
             <img class="project-img" src="./img/Arena-img.png" alt="Arena image" />
             <div class="line"></div>
             <h3 class="text-h3 project-h3">Газпром Арена</h3>
-            <p class="text-p project-p">
-              Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.
-            </p>
+            <p class="text-p project-p">Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</p>
           </div>
           <div class="about-flex-item">
             <img class="project-img" src="./img/Arena-img.png" alt="Arena image" />
             <div class="line"></div>
             <h3 class="text-h3 project-h3">Газпром Арена</h3>
-            <p class="text-p project-p">
-              Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.
-            </p>
+            <p class="text-p project-p">Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Главный текст</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis animi eos corrupti soluta architecto laborum velit delectus ab dignissimos asperiores earum explicabo exercitationem assumenda quis eveniet qui sunt consequatur consequuntur officia, vel veritatis tempore distinctio neque. At ut asperiores corporis quia praesentium possimus animi consectetur quod quas! Numquam, aliquid fugit!</p>
+      </div>
+    </div>
+
     <section class="request">
       <div class="container">
         <div class="request_flex">
@@ -109,10 +111,10 @@
             <h5 class="request_h5">Реализуем самые смелые решения в России!</h5>
           </div>
           <div class="request_flex-right">
-            <button class="request-btn">
+            <a class="request-btn modal-trigger" href="#modal1">
               <img src="img/message icon.svg" alt="Mail" class="request_icon" />
               Ваш запрос
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -151,28 +153,28 @@
     <section class="portfolio">
       <div class="portfolio_grid">
         <div class="portfolio_grid-item">
-          <img src="img/portfolio image.jpg" alt="Portfolio image" class="portfolio_img" />
+          <img class="portfolio_img materialboxed" width="480" src="img/portfolio image.jpg" alt="Portfolio image" />
         </div>
         <div class="portfolio_grid-item">
-          <img src="img/portfolio image.jpg" alt="Portfolio image" class="portfolio_img" />
+          <img class="portfolio_img materialboxed" width="480" src="img/portfolio image.jpg" alt="Portfolio image" />
         </div>
         <div class="portfolio_grid-item">
-          <img src="img/portfolio image.jpg" alt="Portfolio image" class="portfolio_img" />
+          <img class="portfolio_img materialboxed" width="480" src="img/portfolio image.jpg" alt="Portfolio image" />
         </div>
         <div class="portfolio_grid-item">
-          <img src="img/portfolio image.jpg" alt="Portfolio image" class="portfolio_img" />
+          <img class="portfolio_img materialboxed" width="480" src="img/portfolio image.jpg" alt="Portfolio image" />
         </div>
         <div class="portfolio_grid-item">
-          <img src="img/portfolio image.jpg" alt="Portfolio image" class="portfolio_img" />
+          <img class="portfolio_img materialboxed" width="480" src="img/portfolio image.jpg" alt="Portfolio image" />
         </div>
         <div class="portfolio_grid-item">
-          <img src="img/portfolio image.jpg" alt="Portfolio image" class="portfolio_img" />
+          <img class="portfolio_img materialboxed" width="480" src="img/portfolio image.jpg" alt="Portfolio image" />
         </div>
         <div class="portfolio_grid-item">
-          <img src="img/portfolio image.jpg" alt="Portfolio image" class="portfolio_img" />
+          <img class="portfolio_img materialboxed" width="480" src="img/portfolio image.jpg" alt="Portfolio image" />
         </div>
         <div class="portfolio_grid-item">
-          <img src="img/portfolio image.jpg" alt="Portfolio image" class="portfolio_img" />
+          <img class="portfolio_img materialboxed" width="480" src="img/portfolio image.jpg" alt="Portfolio image" />
         </div>
       </div>
     </section>
@@ -183,31 +185,19 @@
         <div class="question_items">
           <details class="question_item">
             <summary class="text-h3 question_h3">Работаете ли вы по 249 ФЗ?</summary>
-            <p class="text-p question_p">
-              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
-              время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
-            </p>
+            <p class="text-p question_p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
           </details>
           <details class="question_item">
             <summary class="text-h3 question_h3">Работаете ли вы по 249 ФЗ?</summary>
-            <p class="text-p question_p">
-              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
-              время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
-            </p>
+            <p class="text-p question_p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
           </details>
           <details class="question_item">
             <summary class="text-h3 question_h3">Работаете ли вы по 249 ФЗ?</summary>
-            <p class="text-p question_p">
-              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
-              время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
-            </p>
+            <p class="text-p question_p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
           </details>
           <details class="question_item">
             <summary class="text-h3 question_h3">Работаете ли вы по 249 ФЗ?</summary>
-            <p class="text-p question_p">
-              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
-              время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
-            </p>
+            <p class="text-p question_p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
           </details>
         </div>
       </div>
@@ -241,10 +231,7 @@
           <div class="reviews_grid-item">
             <div class="reviews_card">
               <div class="reviews_quotes">“</div>
-              <p class="text-p-reviews">
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
-                время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.
-              </p>
+              <p class="text-p-reviews">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.</p>
             </div>
             <h4 class="text-h4">
               Иванов Иван,
@@ -254,10 +241,7 @@
           <div class="reviews_grid-item">
             <div class="reviews_card">
               <div class="reviews_quotes">“</div>
-              <p class="text-p-reviews">
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
-                время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.
-              </p>
+              <p class="text-p-reviews">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.</p>
             </div>
             <h4 class="text-h4">
               Иванов Иван,
@@ -267,10 +251,7 @@
           <div class="reviews_grid-item">
             <div class="reviews_card">
               <div class="reviews_quotes">“</div>
-              <p class="text-p-reviews">
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
-                время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.
-              </p>
+              <p class="text-p-reviews">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.</p>
             </div>
             <h4 class="text-h4">
               Иванов Иван,
@@ -280,6 +261,15 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal Structure -->
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h4>Это вторая кнопка, и она совсем другая в содержании!</h4>
+        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вопроса подзаголовок силуэт букв продолжил о залетают грустный на берегу языком, не скатился всеми своего запятых рекламных всемогущая оксмокс пунктуация заманивший текстами снова. Предупредила имени вдали одна несколько продолжил она безопасную заглавных встретил то свою парадигматическая первую, это всеми текст, журчит ведущими не? Послушавшись, жизни! Семантика вопрос предупредила над имеет? Предложения, то! Коварных страну послушавшись залетают, речью, lorem первую что пустился скатился напоивший своего, переписывается его пор имени о сих? Заглавных имеет жизни lorem пунктуация злых, языком всеми семь заголовок коварный всемогущая знаках рукопись заманивший эта большой которой, необходимыми что, единственное свое собрал свой рыбного лучше рекламных? Первую даже семантика приставка домах? Которой, приставка возвращайся! Продолжил агентство однажды текстами предупредила свой рыбными бросил языкового точках подпоясал, дорогу переписали. Вскоре подпоясал, правилами, языком всемогущая города безорфографичный океана, все но что лучше от всех? Продолжил семь прямо за вопроса взобравшись но мир если рукописи.</p>
+      </div>
+    </div>
+
     <section class="request">
       <div class="container">
         <div class="request_flex">
@@ -288,10 +278,10 @@
             <h5 class="request_h5">Оставьте заявку и мы свяжемся с вами!</h5>
           </div>
           <div class="request_flex-right">
-            <button class="request-btn">
+            <a class="request-btn modal-trigger" href="#modal2">
               <img src="img/message icon.svg" alt="Mail" class="request_icon" />
               Ваш запрос
-            </button>
+            </a>
           </div>
         </div>
       </div>

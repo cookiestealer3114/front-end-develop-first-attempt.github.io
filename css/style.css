@@ -150,7 +150,7 @@ body {
   justify-items: center;
 }
 .about_grid-item {
-  text-align: c enter;
+  text-align: center;
   width: 160px;
 }
 .about_h4 {
@@ -590,8 +590,10 @@ nav,
 .dropdown-content,
 .collapsible,
 .sidenav {
-  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .sidenav .collapsible,
@@ -898,8 +900,12 @@ nav ul a.btn-floating > .material-icons {
   line-height: inherit;
 }
 .input-field input[type="search"]:focus:not(.browser-default) + label i,
-.input-field input[type="search"]:focus:not(.browser-default) ~ .mdi-navigation-close,
-.input-field input[type="search"]:focus:not(.browser-default) ~ .material-icons {
+.input-field
+  input[type="search"]:focus:not(.browser-default)
+  ~ .mdi-navigation-close,
+.input-field
+  input[type="search"]:focus:not(.browser-default)
+  ~ .material-icons {
   color: #444;
 }
 .input-field input[type="search"] ~ .mdi-navigation-close,
@@ -1012,8 +1018,10 @@ nav ul a.btn-floating > .material-icons {
 /* modal */
 .z-depth-5,
 .modal {
-  -webkit-box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
 }
 
 .modal {
